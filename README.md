@@ -71,6 +71,18 @@ Currently, the application only predicts handwritten digits. Upcoming features:
 
 ---
 
+## 🚀 Replacing the Model
+
+If you have a **better model**, you can place it inside the `models/` folder.  
+Make sure that your custom model follows the same **layer architecture**:
+
+- **Input layer**: 784 neurons (for 28x28 pixel MNIST images)  
+- **Hidden layer 1**: 256 neurons  
+- **Hidden layer 2**: 128 neurons  
+- **Output layer**: 10 neurons (digits 0–9)
+
+---
+
 ## Requirements
 
 ### 1️⃣ Running the Application
